@@ -1,20 +1,17 @@
 public class Car {
 
     private String model;
-    private int year;
     private double price;
-    public Car(int year) {
-        this.year = year;
-    }
-
 
     public Car(String model) {
         this.model = model;
     }
 
+    public Car(double price) {
+        this.price = price;
+    }
 
-
-    public int getYear() {
-        return year;
+    public double getPrice() {
+        return price;
     }
 }
